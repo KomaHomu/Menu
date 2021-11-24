@@ -2,7 +2,7 @@ package hw.tuan3.hw2.customer1;
 
 public class Invoice {
 
-    private int id;
+    private final int id;
     private Customer customer;
     private double amount;
 

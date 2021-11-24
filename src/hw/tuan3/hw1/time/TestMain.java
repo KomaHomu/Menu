@@ -2,7 +2,7 @@ package hw.tuan3.hw1.time;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Time time1 = new Time(1, 2, 3);
         System.out.println(time1);

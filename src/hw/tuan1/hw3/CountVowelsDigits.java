@@ -30,7 +30,7 @@ public class CountVowelsDigits {
         System.out.printf("Number of digits: %.2f%%", digitPercentage);
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

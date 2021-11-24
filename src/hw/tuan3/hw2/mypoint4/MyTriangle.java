@@ -4,9 +4,9 @@ import hw.tuan3.hw2.mypoint1.MyPoint;
 
 public class MyTriangle {
 
-    private MyPoint v1;
-    private MyPoint v2;
-    private MyPoint v3;
+    private final MyPoint v1;
+    private final MyPoint v2;
+    private final MyPoint v3;
 
     public MyTriangle(MyPoint v1, MyPoint v2, MyPoint v3) {
         this.v1 = v1;

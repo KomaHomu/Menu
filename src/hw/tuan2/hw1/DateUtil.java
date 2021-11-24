@@ -108,7 +108,7 @@ public class DateUtil {
         return strDay[dayOfWeek] + " " + day + " " + strMonths[month - 1] + " " + year;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         System.out.println(isLeapYear(1900));
         System.out.println(isLeapYear(2000));

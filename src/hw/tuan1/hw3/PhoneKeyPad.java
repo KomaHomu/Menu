@@ -53,7 +53,7 @@ public class PhoneKeyPad {
         }
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

@@ -4,7 +4,7 @@ import hw.tuan3.hw2.mypoint1.MyPoint;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPoint point1 = new MyPoint(1, 2);
         MyPoint point2 = new MyPoint(5, 3);

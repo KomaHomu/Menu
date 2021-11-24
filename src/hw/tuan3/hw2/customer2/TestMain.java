@@ -2,7 +2,7 @@ package hw.tuan3.hw2.customer2;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Customer customer = new Customer(55, "Nagi", 'm');
         System.out.println(customer);

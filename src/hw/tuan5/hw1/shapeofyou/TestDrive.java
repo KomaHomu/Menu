@@ -2,7 +2,7 @@ package hw.tuan5.hw1.shapeofyou;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Shape shape1 = new Circle(5.5, "red", false);
         System.out.println(shape1);

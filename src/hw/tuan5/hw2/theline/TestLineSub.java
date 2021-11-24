@@ -2,7 +2,7 @@ package hw.tuan5.hw2.theline;
 
 public class TestLineSub {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Point p1 = new Point(1, 2);
         Point p2 = new Point(5, 6);

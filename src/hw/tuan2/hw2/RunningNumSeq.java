@@ -23,7 +23,7 @@ public class RunningNumSeq {
         return len(num - 1) + numOfDigit(num);
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int num = 9;
 

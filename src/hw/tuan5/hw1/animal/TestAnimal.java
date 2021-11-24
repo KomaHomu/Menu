@@ -2,7 +2,7 @@ package hw.tuan5.hw1.animal;
 
 public class TestAnimal {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Animal animal = new Animal("Rex");
         System.out.println(animal);

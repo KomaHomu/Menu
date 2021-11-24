@@ -22,7 +22,7 @@ public class RecursiveBinarySearch {
 
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         RecursiveBinarySearch rbs = new RecursiveBinarySearch();
 

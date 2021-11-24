@@ -2,7 +2,7 @@ package hw.tuan5.hw2.theline;
 
 public class TestPoint {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Point p1 = new Point(10, 20);
         System.out.println(p1);

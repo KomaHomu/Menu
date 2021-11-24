@@ -16,7 +16,7 @@ public class CheckHexStr {
         return true;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

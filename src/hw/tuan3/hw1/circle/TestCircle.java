@@ -2,7 +2,7 @@ package hw.tuan3.hw1.circle;
 
 public class TestCircle {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Circle circle1 = new Circle();
         System.out.println("The circle has radius of " + circle1.getRadius() + " and area of " + circle1.getArea());

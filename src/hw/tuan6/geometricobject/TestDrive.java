@@ -2,7 +2,7 @@ package hw.tuan6.geometricobject;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         GeometricObject circle = new Circle(2.0);
         System.out.println(circle);

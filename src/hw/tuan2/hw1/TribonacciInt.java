@@ -15,7 +15,7 @@ public class TribonacciInt {
         return test;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int fIndex;
         int fIndexMinus1 = 2;

@@ -2,10 +2,10 @@ package hw.tuan4.ballplayer;
 
 public class Field { // incomplete
 
-    private int x1;
-    private int y1;
-    private int x2;
-    private int y2;
+    private final int x1;
+    private final int y1;
+    private final int x2;
+    private final int y2;
     private int goalX1;
     private int goalX2;
     private int goalHeight;

@@ -2,7 +2,7 @@ package hw.tuan6.anotheranimal;
 
 public class TestAnimal {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Cat cat1 = new Cat();
         cat1.greeting();

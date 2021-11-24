@@ -2,7 +2,7 @@ package hw.tuan3.hw2.book1;
 
 public class TestBook {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
         System.out.println(ahTeck);

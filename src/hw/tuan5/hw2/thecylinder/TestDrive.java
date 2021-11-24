@@ -2,7 +2,7 @@ package hw.tuan5.hw2.thecylinder;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Circle circle = new Circle();
         System.out.println(circle);

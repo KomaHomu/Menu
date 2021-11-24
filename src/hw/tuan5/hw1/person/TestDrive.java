@@ -2,7 +2,7 @@ package hw.tuan5.hw1.person;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Person person = new Person("Jean", "St.Louis");
         System.out.println(person);

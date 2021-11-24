@@ -172,7 +172,7 @@ public class Matrix {
         return productOfMatrix;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int[][] matrix1 = {{3, 2, 1, 7},
                 {9, 11, 5, 4},

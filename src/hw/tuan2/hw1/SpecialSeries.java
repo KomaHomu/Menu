@@ -21,7 +21,7 @@ public class SpecialSeries {
         return result;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         double x = 0.5;
         int term = 3;

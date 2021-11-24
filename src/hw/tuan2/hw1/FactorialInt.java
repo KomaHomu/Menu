@@ -14,7 +14,7 @@ public class FactorialInt {
         return test;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int factorial = 1;
         int index = 1;

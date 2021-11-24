@@ -4,8 +4,8 @@ public class MovablePoint implements Movable {
 
     int x;
     int y;
-    int xSpeed;
-    int ySpeed;
+    final int xSpeed;
+    final int ySpeed;
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
         this.x = x;

@@ -2,7 +2,7 @@ package hw.tuan3.hw1.date;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Date date1 = new Date(1, 2, 2014);
         System.out.println(date1);

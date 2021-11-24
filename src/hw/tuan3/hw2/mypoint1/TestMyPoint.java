@@ -2,7 +2,7 @@ package hw.tuan3.hw2.mypoint1;
 
 public class TestMyPoint {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPoint point1 = new MyPoint();
         System.out.println(point1);

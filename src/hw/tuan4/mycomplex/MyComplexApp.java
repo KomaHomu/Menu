@@ -65,7 +65,7 @@ public class MyComplexApp {
 
         double[] result = new double[2];
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         String input;
         String[] split;
@@ -73,7 +73,7 @@ public class MyComplexApp {
 
         while (!done) {
             try {
-                input = scanner.nextLine();
+                input = scan.nextLine();
                 split = input.split(" ");
 
                 result[0] = Double.parseDouble(split[0]);
@@ -87,7 +87,7 @@ public class MyComplexApp {
         return result;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         double[] complex;
 

@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class TestMyRectangle {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPoint topLeft = new MyPoint(8, 6);
         MyPoint botRight = new MyPoint(4, 5);

@@ -2,7 +2,7 @@ package hw.tuan3.hw1.circle;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         CircleToo circle1 = new CircleToo(1.1);
         System.out.println(circle1);

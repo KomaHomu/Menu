@@ -7,7 +7,7 @@ public class GCD {
         return (b == 0) ? a : gcd(b, a % b);
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int first = 120;
         int sec = 245;

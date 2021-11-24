@@ -2,7 +2,7 @@ package hw.tuan4.mytime;
 
 public class TestMyTime {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyTime time1 = new MyTime();
         MyTime time2 = new MyTime(20, 16, 54);

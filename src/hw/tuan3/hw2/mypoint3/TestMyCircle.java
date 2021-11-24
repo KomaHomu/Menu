@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class TestMyCircle {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPoint center = new MyPoint(1, 2);
         MyPoint newCenter = new MyPoint(3, 4);

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Point2D point2D1 = new Point2D();
         System.out.println(point2D1);

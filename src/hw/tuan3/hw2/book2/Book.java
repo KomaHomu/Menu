@@ -4,8 +4,8 @@ import hw.tuan3.hw2.book1.Author;
 
 public class Book {
 
-    private String name;
-    private Author[] authors;
+    private final String name;
+    private final Author[] authors;
     private double price;
     private int qty;
 

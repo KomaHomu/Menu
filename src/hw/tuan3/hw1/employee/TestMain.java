@@ -2,7 +2,7 @@ package hw.tuan3.hw1.employee;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Employee employee1 = new Employee(8, "Peter", "Tan", 2500);
         System.out.println(employee1);

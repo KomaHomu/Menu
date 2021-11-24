@@ -31,7 +31,7 @@ public class BubbleSort {
         System.out.print("]");
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int[] iniArr = {3, 4, 1, 2, 6, 5};
 

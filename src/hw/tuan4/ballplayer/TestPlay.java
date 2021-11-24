@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class TestPlay { // incomplete
 
-    public void run() {
+    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         String choice = "";
         int speed;
@@ -22,21 +22,21 @@ public class TestPlay { // incomplete
         while (!fbField.goal(ball) && !choice.equals("0")) {
 
             System.out.print("*************************   \nChoose an action: \n1.Move \n2.Kick \n3.Check status \n0. Exit \n************************* \nYour choice: ");
-            choice = scanner.next();
+            choice = scan.next();
             switch (choice) {
                 case "1":
                     System.out.print("At x: ");
-                    xDisp = scanner.nextInt();
+                    xDisp = scan.nextInt();
                     System.out.print("At y: ");
-                    yDisp = scanner.nextInt();
+                    yDisp = scan.nextInt();
                     player1.move(xDisp, yDisp);
                     ball.gravity();
                     break;
                 case "2" :
                     System.out.print("With speed of: ");
-                    speed = scanner.nextInt();
+                    speed = scan.nextInt();
                     System.out.print("And direction of: ");
-                    direction = scanner.nextInt();
+                    direction = scan.nextInt();
                     player1.kick(ball, speed, direction);
                     System.out.println(ball);
                     ball.gravity();

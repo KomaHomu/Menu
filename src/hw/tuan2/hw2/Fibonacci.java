@@ -14,7 +14,7 @@ public class Fibonacci {
         return fibonacci(num - 1) + fibonacci(num - 2);
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int num = 10;
 

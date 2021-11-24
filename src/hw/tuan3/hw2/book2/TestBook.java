@@ -4,7 +4,7 @@ import hw.tuan3.hw2.book1.Author;
 
 public class TestBook {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Author[] authors = new Author[2];
 

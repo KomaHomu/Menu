@@ -2,9 +2,9 @@ package hw.tuan3.hw1.employee;
 
 public class Employee {
 
-    private int id;
-    private String firstName;
-    private String lastName;
+    private final int id;
+    private final String firstName;
+    private final String lastName;
     private int salary;
 
     public Employee(int id, String firstName, String lastName, int salary) {

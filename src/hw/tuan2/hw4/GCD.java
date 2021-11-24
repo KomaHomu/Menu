@@ -27,7 +27,7 @@ public class GCD {
         return a;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

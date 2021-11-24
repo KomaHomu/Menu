@@ -11,7 +11,7 @@ public class RadixN2Dec {
         System.out.println("The equivalent decimal number: " + toDec);
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

@@ -102,7 +102,7 @@ public class PerfectNumberList {
         printResult(noneArr, upBound, "neither deficient nor perfect"); //print all none-perfect and none-deficient
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 

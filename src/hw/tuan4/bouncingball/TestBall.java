@@ -2,7 +2,7 @@ package hw.tuan4.bouncingball;
 
 public class TestBall {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Ball ball = new Ball(50, 50, 5, 10, 30);
         Container box = new Container(0, 0, 100, 100);

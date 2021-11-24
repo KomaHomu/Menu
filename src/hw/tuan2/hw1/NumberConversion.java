@@ -17,7 +17,7 @@ public class NumberConversion {
         }
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         String str;
         String result;

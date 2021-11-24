@@ -2,7 +2,7 @@ package hw.tuan3.hw1.account;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Account account1 = new Account("A101", "Tan Ah Teck", 88);
         System.out.println(account1);

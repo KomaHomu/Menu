@@ -14,7 +14,7 @@ public class FibonacciInt {
         return test;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         int fIndex;
         int fIndexMinus1 = 1;

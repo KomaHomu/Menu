@@ -2,8 +2,8 @@ package hw.tuan3.hw2.customer2;
 
 public class Account {
 
-    private int id;
-    private Customer customer;
+    private final int id;
+    private final Customer customer;
     private double balance;
 
     public Account(int id, Customer customer) {

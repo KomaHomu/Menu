@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class TestMyLine {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPoint begin = new MyPoint(8, 6);
         MyPoint end = new MyPoint(4, 5);

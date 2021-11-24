@@ -2,7 +2,7 @@ package hw.tuan4.ballplayer;
 
 public class Player {
 
-    private int number;
+    private final int number;
     private float x;
     private float y;
     private float z = 0.0f;

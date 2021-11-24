@@ -2,7 +2,7 @@ package hw.tuan4.mycomplex;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyComplex complex1 = new MyComplex(1.1, 2.2);
         MyComplex complex2 = new MyComplex();

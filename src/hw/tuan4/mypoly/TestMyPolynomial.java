@@ -2,7 +2,7 @@ package hw.tuan4.mypoly;
 
 public class TestMyPolynomial {
 
-    public void run() {
+    public static void main(String[] args) {
 
         MyPolynomial polynomial1 = new MyPolynomial(1.0, 2.0, 3.0, 4.0);
         MyPolynomial polynomial2 = new MyPolynomial(1.0, 3.0, 5.0);

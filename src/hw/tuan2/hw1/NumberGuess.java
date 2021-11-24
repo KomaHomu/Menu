@@ -38,7 +38,7 @@ public class NumberGuess {
         }
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         guessingGame();
     }

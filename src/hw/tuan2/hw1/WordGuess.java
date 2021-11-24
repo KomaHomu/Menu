@@ -111,15 +111,8 @@ public class WordGuess {
         }
     }
 
-    public void run() {
-
-        guessingGame();
-    }
-
     public static void main(String[] args) {
 
-        WordGuess wordGuess = new WordGuess();
-
-        wordGuess.run();
+        guessingGame();
     }
 }

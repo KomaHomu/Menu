@@ -2,9 +2,9 @@ package hw.tuan3.hw2.book3;
 
 public class Book {
 
-    private String isbn;
-    private String name;
-    private Author author;
+    private final String isbn;
+    private final String name;
+    private final Author author;
     private double price;
     private int qty;
 

@@ -2,7 +2,7 @@ package hw.tuan5.hw1.circlecylinder;
 
 public class TestCylinder {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Cylinder cylinder1 = new Cylinder();
         System.out.println(cylinder1);

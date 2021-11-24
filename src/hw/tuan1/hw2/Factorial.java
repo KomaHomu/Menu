@@ -1,7 +1,7 @@
 package hw.tuan1.hw2;
 
 public class Factorial {
-    public void run() {
+    public static void main(String[] args) {
 
         int n = 20;
         int factorial = 1;

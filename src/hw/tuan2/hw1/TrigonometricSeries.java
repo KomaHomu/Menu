@@ -34,7 +34,7 @@ public class TrigonometricSeries {
         return result;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         double x = 30;
         int term = 5;

@@ -2,8 +2,8 @@ package hw.tuan3.hw2.customer1;
 
 public class Customer {
 
-    private int id;
-    private String name;
+    private final int id;
+    private final String name;
     private int discount;
 
     public Customer(int id, String name, int discount) {

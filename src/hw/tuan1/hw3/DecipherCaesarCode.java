@@ -26,7 +26,7 @@ public class DecipherCaesarCode {
         }
     }
 
-    public void run() {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         String text;

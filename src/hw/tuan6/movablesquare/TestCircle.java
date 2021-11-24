@@ -2,7 +2,7 @@ package hw.tuan6.movablesquare;
 
 public class TestCircle {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Movable m1 = new MovablePoint(5, 6, 10, 15);
         System.out.println(m1);

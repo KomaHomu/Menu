@@ -14,7 +14,7 @@ public class FactorialLong {
         return test;
     }
 
-    public void run() {
+    public static void main(String[] args) {
 
         long factorial = 1;
         int index = 1;

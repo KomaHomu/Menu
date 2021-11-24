@@ -2,7 +2,7 @@ package hw.tuan3.hw1.ball;
 
 public class TestMain {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Ball ball = new Ball(1.1f, 2.2f, 10, 3.3f, 4.4f);
         System.out.println(ball);

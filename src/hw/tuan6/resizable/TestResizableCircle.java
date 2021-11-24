@@ -2,7 +2,7 @@ package hw.tuan6.resizable;
 
 public class TestResizableCircle {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Circle circle = new ResizableCircle(4.0);
 

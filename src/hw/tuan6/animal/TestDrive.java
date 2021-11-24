@@ -2,7 +2,7 @@ package hw.tuan6.animal;
 
 public class TestDrive {
 
-    public void run() {
+    public static void main(String[] args) {
 
         Animal cat = new Cat("Tom");
         cat.greets();
